@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.VispaAndroid"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="19"/>
+    <application>
+
+        <activity android:name=".splash"
+                  android:label="@string/name"
+                  android:icon="@drawable/vispahome"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name="VispaAndroid"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+
+        <activity android:name=".VispaAndroid_Sponsor"
+                  android:label="@string/sponsor_page"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+        <activity android:name=".VispaAndroid_Teams"
+                  android:label="@string/teams_page"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+        <activity android:name=".VispaAndroid_Stories"
+                  android:label="@string/stories_page"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+        <activity android:name=".VispaAndroid_About"
+                  android:label="@string/about_us_page"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+        <activity android:name=".VispaTeam_2012"
+                  android:label="@string/teams2012"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+        <activity android:name=".VispaTeams_2013"
+                  android:label="@string/teams2013"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+        <activity android:name=".VispaTeams_2014"
+                  android:label="@string/teams2014"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+        <activity android:name=".VispaTeams_2015"
+                  android:label="@string/teams2015"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name=".VispaAndroid_About2"
+                  android:label="@string/teams2015"
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+
+
+
+
+    </application>
+</manifest>
